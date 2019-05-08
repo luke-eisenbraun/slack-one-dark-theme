@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-     --primary: #E5C17C;
+     --primary: #1d9bd1;
      --accent: #568AF2;
      --text: #ABB2BF;
      --background: #282C34;
