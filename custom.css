@@ -404,7 +404,7 @@ ts-mention {
           border-width: 1px 1px 1px 0;
           border-radius: 0 20px 20px 0; }
           .client_channels_list_container #col_channels .p-channel_sidebar__link--selected .c-presence, .client_channels_list_container #col_channels .p-channel_sidebar__channel--selected .c-presence {
-            color: var(--primary) !important; }
+            color: var(--silver) !important; }
         .client_channels_list_container #col_channels .p-channel_sidebar__link--draft, .client_channels_list_container #col_channels .p-channel_sidebar__channel--draft {
           font-style: italic; }
         .client_channels_list_container #col_channels .p-channel_sidebar__link .c-presence--away, .client_channels_list_container #col_channels .p-channel_sidebar__channel .c-presence--away {
@@ -1413,6 +1413,13 @@ pre.special_formatting {
 
 .c-file_container--gradient::after {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), var(--background)); }
+
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box,
+.c-search_autocomplete__suggestion_list, .c-search_autocomplete__query_text, .c-search__input_and_close,
+.c-search_autocomplete__footer_navigation_help, .c-channel_name__text, .c-search_autocomplete footer {
+  background: var(--background);
+  color: var(--text); 
+}
 
 /* Channels */
 .creator_link,
