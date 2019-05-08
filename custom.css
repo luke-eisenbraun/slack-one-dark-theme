@@ -1147,11 +1147,6 @@ a .message_sender .member .member_preview_link {
     border: 1px solid transparent;
     /* looks silly but it makes the outline work */ }
 
-.emoji-sizer {
-  /* outline for black-on-transparent emojis */
-  -webkit-filter: drop-shadow(1px 0 0 var(--primary)) drop-shadow(-1px 0 0 var(--primary)) drop-shadow(0 1px 0 var(--primary)) drop-shadow(0 -1px 0 var(--primary));
-  margin: 0 !important; }
-
 .ts_icon.ts_icon_smile_o {
   color: var(--text); }
 
