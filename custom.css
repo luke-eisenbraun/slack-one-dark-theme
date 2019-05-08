@@ -1416,8 +1416,17 @@ pre.special_formatting {
 
 .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box,
 .c-search_autocomplete__suggestion_list, .c-search_autocomplete__query_text, .c-search__input_and_close,
-.c-search_autocomplete__footer_navigation_help, .c-channel_name__text, .c-search_autocomplete footer {
+.c-search_autocomplete__footer_navigation_help, .c-channel_name__text, .c-search_autocomplete footer,
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle{
   background: var(--background);
+  color: var(--text); 
+}
+
+.c-search_autocomplete__suggestion_item--selected, .c-search_autocomplete__suggestion_item--selected .c-channel_name__text,
+.c-search_autocomplete__suggestion_action, .c-search_autocomplete__suggestion_hint,
+.c-search_autocomplete__suggestion_item--selected .c-search_autocomplete__query_text,
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__display-name, .c-usergroup__handle{
+  background: var(--background-hover);   
   color: var(--text); 
 }
 
