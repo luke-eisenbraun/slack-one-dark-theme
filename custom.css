@@ -1821,4 +1821,12 @@ feature_archive_deeplink feature_texty winssb light_theme {
   font-family: var(--font-family) !important;
   margin-left: 20px !important; }
 
+/* For settings */
+.c-fullscreen_modal__body,
+.c-fullscreen_modal__header,
+.c-sidebar_menu__list_item {
+  background: var(--background);
+  color: var(--text)
+}
+
 /*# sourceMappingURL=custom.css.map */
