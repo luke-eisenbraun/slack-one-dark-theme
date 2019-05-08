@@ -14,7 +14,7 @@
   --border-bright: var(--primary);
   --text-bright: #FFF;
   --text-dim: #555c69;
-  --text-special: var(--primary);
+  --text-special: #1d9bd1;
   --text-accent: var(--text-bright);
   --scrollbar-background: #000;
   --scrollbar-border: var(--primary);
@@ -175,8 +175,8 @@ svg.ts_icon_spinner:empty {
 .c-mrkdwn__member--link,
 .c-mrkdwn__subteam--link,
 ts-mention {
-  background: var(--accent);
-  color: var(--text-accent) !important;
+  background: var(--background-elevated);
+  color: var(--text-bright) !important;
   padding: 4px; }
   .c-mrkdwn__mention:hover,
   .c-mrkdwn__member--mention:hover,
@@ -185,8 +185,8 @@ ts-mention {
   .c-mrkdwn__member--link:hover,
   .c-mrkdwn__subteam--link:hover,
   ts-mention:hover {
-    background: var(--accent);
-    color: var(--text-accent) !important;
+    background: var(--background-bright);
+    color: var(--text-special) !important;
     opacity: 0.8; }
 
 .c-reaction {
@@ -218,6 +218,11 @@ ts-mention {
 .c-message_list__unread_divider__label {
   background: var(--red2) !important;
   color: var(--text-bright) !important; }
+
+.c-member_slug--link {
+  background: var(--background-elevated);
+  color: var(--text-bright)
+}
 
 #snippet_prompt,
 #special_formatting_text,
