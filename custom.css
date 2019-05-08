@@ -289,6 +289,10 @@ ts-mention {
 .popover_mask {
   background-color: rgba(0, 0, 0, 0.3); }
 
+.c-menu_item__header {
+  color: var(--text);   
+}
+
 .c-menu_item__button {
   color: var(--text) !important; }
   .c-menu_item__button--danger {
@@ -296,6 +300,10 @@ ts-mention {
   .c-menu_item__button--highlighted {
     background: var(--background-hover) !important;
     color: var(--text-bright) !important; }
+
+.c-menu_item__icon {
+    color: var(--text);
+}
 
 .c-menu_separator__separator {
   border-bottom-color: var(--border-dim); }
@@ -470,6 +478,10 @@ ts-mention {
     border: none; }
   .client_main_container #edit_topic_inner:hover {
     color: var(--primary); }
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    background: var(--background-elevated);
+    box-shadow: inset 0px 0 0 0 var(--backgorund);
+}
 .client_main_container #client_body {
   background: var(--background);
   color: var(--text); }
@@ -617,6 +629,25 @@ ts-mention {
   color: var(--text) !important; }
 .p-message_pane__foreword .c-member__other-names--large {
   color: var(--text-dim) !important; }
+
+.p-threads_view__footer {
+    color: var(--text-bright);
+    background: var(--background-elevated);
+    border: var(--background-elevated);
+}
+
+.p-message_input_file_button {
+ 	background: var(--background-elevated);   
+}
+
+.c-message_kit__thread_message {
+    color: var(--text-bright);
+    background: var(--background-elevated);
+    border: var(--background-elevated);
+}
+
+.c-channel_name__text {
+  color: var(--text-bright); }
 
 .c-channel_insights__drawer_title {
   color: var(--text-bright); }
@@ -1093,6 +1124,9 @@ a .message_sender .member .member_preview_link {
       color: var(--text); }
     .menu.p-emoji_picker .p-emoji_picker__update_overlay .c-button {
       color: var(--text); }
+
+.p-emoji_picker__list_container, .p-emoji_picker__input_container, .p-emoji_picker__heading, .p-emoji_picker__footer {
+    background:var(--background);}
 
 /* emojis */
 .rxn[data-emoji] {
